@@ -19,10 +19,14 @@ fortunes = {
     "stressed": [
         "✨ Your fortune: Breathe, Hansika. Clarity comes after the storm. ✨",
         "✨ Your fortune: You’re stronger than the stress you feel. ✨"
+    ],
+    "excited": [
+        "✨ Your fortune: Ride the wave of excitement, Hansika — big things are coming! ✨",
+        "✨ Your fortune: Energy is contagious. Spread your sparkle! ✨"
     ]
 }
 
 if mood in fortunes:
     print(random.choice(fortunes[mood]))
 else:
-    print("✨ Sorry, I can only read moods like happy, sad, neutral, or stressed. ✨")
+    print("✨ Sorry, I can only read moods like happy, sad, neutral, stressed, or excited. ✨")
